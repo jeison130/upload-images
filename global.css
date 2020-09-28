@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  /* overflow: hidden; */
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+#sapper {
+  max-width: 560px;
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 500px) {
+  #sapper {
+    height: calc(100% - 72px) !important;
+  }
+}
